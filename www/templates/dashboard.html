@@ -1,0 +1,9 @@
+<ion-view view-title="Dashboard">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="widgetlist in dashboard" href="#/app/dashboard/{{widgetlist.id}}">
+        {{widgetlist.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
